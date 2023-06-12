@@ -2,8 +2,9 @@ import genpassword as modes
 import secrets
 import string
 
-password=modes.genpassword()
-passwordXKCD=modes.XKCDpassword()
+password=modes.genpassword(10)
+
+passwordXKCD=modes.XKCDpassword('_')
 
 print(password)
 print(passwordXKCD) 
