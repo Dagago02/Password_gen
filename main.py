@@ -4,12 +4,12 @@ import secrets
 import string
 import os
 
-s=0
-path=os.getcwd() #Directory for saved passwords
+mode=0
+path='/home/daniel/Documents/password_P/pruebas'#Directory for saved passwords
 
-if s==1:
+if mode==1:
     password=modes.genpassword(10)
-elif s==0:
+elif mode==0:
     password=modes.XKCDpassword('_')
 
 save.savepass(password,path,'pruebas')
