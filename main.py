@@ -1,10 +1,18 @@
 import genpassword as modes
+import savepass as save
 import secrets
 import string
+import os
 
-password=modes.genpassword(10)
+s=0
+path=os.getcwd() #Directory for saved passwords
 
-passwordXKCD=modes.XKCDpassword('_')
+if s==1:
+    password=modes.genpassword(10)
+elif s==0:
+    password=modes.XKCDpassword('_')
 
-print(password)
-print(passwordXKCD) 
+save.savepass(password,path,'pruebas')
+
+print(password) 
+
