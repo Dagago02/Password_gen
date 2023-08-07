@@ -5,14 +5,17 @@ import string
 import os
 
 mode=0
-path='/home/daniel/Documents/password_P/pruebas'#Directory for saved passwords
+direction='Pruebas'
+#path='C:\\Users\\Daniel Garcia\\Documents\\Programacion\\Repositorios\\Password_gen\\Pruebas' #Directory for saved passwords
+path=os.path.abspath(os.getcwd()) + '\\Pruebas'
+
 
 if mode==1:
     password=modes.genpassword(10)
 elif mode==0:
     password=modes.XKCDpassword('_')
 
-save.savepass(password,path,'pruebas')
+save.savepass(password,path,direction)
 
 print(password) 
 
