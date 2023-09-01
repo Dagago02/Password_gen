@@ -36,3 +36,8 @@ Generación de contraseña en formato XKCD:
    ```bash
    gato-amarillo-pizza
    ```
+## Contribución
+
+Si deseas contribuir a este proyecto, ¡eres bienvenido! Siéntete libre de abrir un problema o enviar una solicitud de extracción.
+Generación de contraseña en formato XKCD:
+
