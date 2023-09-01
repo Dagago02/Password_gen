@@ -20,4 +20,19 @@ Este proyecto es un generador de contraseñas en Python que te permite crear con
 1. Clona este repositorio en tu máquina local:
 
    ```bash
-   git clone https://github.com/tuusuario/generador-contrasenas-python.git
+   git clone https://github.com/Dagago02/Password_gen.git
+2. Ejecuta el generador de contraseñas
+   ```bash
+   python3 exe.py
+3. Sigue las instrucciones en la consola para personalizar la generación de contraseñas.
+
+###Ejemplos
+
+Generación de contraseña normal:
+   ```bash
+   Abc123!@
+   ```
+Generación de contraseña en formato XKCD:
+   ```bash
+   gato-amarillo-pizza
+   ```
