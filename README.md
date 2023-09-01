@@ -26,7 +26,7 @@ Este proyecto es un generador de contraseñas en Python que te permite crear con
    python3 exe.py
 3. Sigue las instrucciones en la consola para personalizar la generación de contraseñas.
 
-##Ejemplos
+## Ejemplos
 
 Generación de contraseña normal:
    ```bash
